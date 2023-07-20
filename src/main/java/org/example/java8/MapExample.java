@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 
 public class MapExample {
     public static void main(String[] args) {
+        //Convert String to uppercase and Join them with coma
         List<String> G7 = Arrays.asList("USA", "Japan", "France", "Germany", "Italy", "U.K.", "Canada");
         List<String> newList = List.of(G7.stream()
                 .map(String::toUpperCase)
